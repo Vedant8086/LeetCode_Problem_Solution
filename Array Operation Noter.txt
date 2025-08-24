@@ -1,0 +1,12 @@
+Array Operation Noter :
+	1.Find Largest 
+	2.Find Second Largest
+	3.Remove Duplicetes
+	4.Rotate Array Left By 1
+	5.Rotate Array By d Places Left
+	6.Rotate Array By 1 Places Right
+	7.Rotate Array By d Places Right
+	8.Union Of Sorted Array
+	9.Intersection Of Sorted Array
+	10.Missing Element In Array
+	11.

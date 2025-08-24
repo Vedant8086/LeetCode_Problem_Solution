@@ -1,0 +1,8 @@
+import pandas as pd
+
+def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    df = pd.DataFrame(employees)
+    bonus = [int(i * 2) for i in df['salary']] 
+    df['bonus'] = bonus
+
+    return df

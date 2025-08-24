@@ -1,0 +1,5 @@
+import pandas as pd
+
+def getDataframeSize(players: pd.DataFrame) -> List[int]:
+    new_pf = pd.DataFrame(players)
+    return [new_pf.shape[0],new_pf.shape[1]]

@@ -1,0 +1,24 @@
+class Solution {
+    bool isPrefix(string word,string pref) {
+        int n = pref.length();
+        bool isTrue = true;
+        for(int i = 0;i < n;i++) {
+            if(word[i] != pref[i]) {
+                return false;
+            }
+        }
+
+        return isTrue;
+    }
+public:
+    int prefixCount(vector<string>& words, string pref) {
+        int count = 0;
+        for(auto i : words) {
+            if(isPrefix(i,pref)) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+};
